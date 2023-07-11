@@ -1,0 +1,59 @@
+{
+    "homeheader": {
+        "homepage": "Home Page",
+        "introduction": "Introduction",
+        "design": "Construction Design",
+        "category": "Category",
+        "shareandnew": "Share & News",
+        "support": " Support",
+        "login": "Login",
+        "logout": "Logout",
+        "title1": "AQUATIC SYSTEM",
+        "title2": "DESIGN - PROFESSIONAL CONSTRUCTION",
+        "texthoder": "Search information ..."
+    },
+    "menu": {
+        "admin": {
+            "manage": "Management",
+            "manage-user": "User management",
+            "manage-user-redux": "User Redux",
+            "manage-product": "Product management",
+            "manage-order": "Order management",
+            "manage-posts": "Posts management",
+            "manage-comment": "Comment management"
+        }
+    },
+    "manage-user": {
+        "title": "USER MANAGEMENT",
+        "add": "Add new User",
+        "email": "Email",
+        "password": "Password",
+        "fullname": "FullName",
+        "address": "Address",
+        "phonenumber": "Phone Number",
+        "gender": "Gender",
+        "image": "Avatar",
+        "roleid": "Role",
+        "create": "Create",
+        "edit": "Save changes"
+    },
+    "manage-product": {
+        "title": "PRODUCT MANAGEMENT",
+        "add": "Add new Product",
+        "name": "Product's name",
+        "type": "Category type",
+        "price": "Price",
+        "quantity": "Quantity",
+        "slug": "Slug",
+        "status": "status",
+        "detail": "Detail",
+        "image": "Image",
+        "create": "Create",
+        "save": "Save changes"
+    },
+    "system": {
+        "user-redux": {
+            "welcome": "welcome"
+        }
+    }
+}

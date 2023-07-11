@@ -1,0 +1,59 @@
+{
+    "homeheader": {
+        "homepage": "Trang chủ",
+        "introduction": "Giới thiệu",
+        "design": "Thiết kế & thi công",
+        "category": "Danh mục sản phẩm",
+        "shareandnew": "Chia sẻ & tin tức",
+        "support": " Hỗ trợ",
+        "login": "Đăng nhập",
+        "logout": "Đăng xuất",
+        "title1": "HỆ THỐNG THỦY SINH",
+        "title2": "THIẾT KẾ - THI CÔNG CHUYÊN NGHIỆP",
+        "textholder": "Tìm kiếm thông tin ..."
+    },
+    "menu": {
+        "admin": {
+            "manage": "Quản lý",
+            "manage-user": "Quản lý người dùng",
+            "manage-user-redux": "Quản lý người dùng",
+            "manage-product": "Quản lý sản phẩm",
+            "manage-order": "Quản lý đơn hàng",
+            "manage-posts": "Quản lý bài viết",
+            "manage-comment": "Quản lý bình luận"
+        }
+    },
+    "manage-user": {
+        "title": "QUẢN LÝ NGƯỜI DÙNG",
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "fullname": "Họ và tên",
+        "address": "Địa chỉ",
+        "phonenumber": "Số điện thoại",
+        "gender": "Giới tính",
+        "image": "Ảnh đại diện",
+        "roleid": "Phân quyền",
+        "create": "Thêm mới",
+        "edit": "Lưu thay đổi"
+    },
+    "manage-product": {
+        "title": "QUẢN LÝ SẢN PHẨM",
+        "add": "Thêm mới sản phẩm",
+        "name": "Tên sản phẩm",
+        "type": "Loại sản phẩm",
+        "price": "Giá tiền",
+        "quantity": "Số lượng",
+        "slug": "Đường dẫn",
+        "status": "Trạng thái",
+        "detail": "Mô tả",
+        "image": "Ảnh sản phẩm",
+        "create": "Thêm mới",
+        "save": "Lưu thay đổi"
+    },
+    "system": {
+        "user-redux": {
+            "welcome": "Xin chào"
+        }
+    }
+}

@@ -1,0 +1,164 @@
+.product-detail-container {
+    margin-top: 80px;
+    padding: 40px 65px;
+
+    .product {
+        .image-product {
+            height: 441px;
+            width: 100%;
+            justify-content: center;
+            align-self: center;
+
+            .img {
+                height: 92%;
+                width: auto;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 1px solid rgb(194, 184, 184);
+            }
+        }
+
+        .info-product {
+            width: 100%;
+
+            .caythumuc {
+                height: 40px;
+                padding-top: 7px;
+            }
+
+            .product-name {
+                font-size: 30px;
+                padding-top: 5px;
+            }
+
+            .price {
+                padding: 40px 0;
+                display: flex;
+
+                .title-price {
+                    font-size: 17px;
+                    margin-top: 8px;
+                }
+
+                .price-product {
+                    font-size: 27px;
+                    margin-left: 50px;
+                }
+            }
+
+            .quantity {
+                display: flex;
+                padding-bottom: 55px;
+
+                .title-quantity {
+                    font-size: 17px;
+                    margin-top: 8px;
+                }
+
+                .form {
+                    margin-left: 40px;
+
+                    .minus {
+                        height: 40px;
+                        width: 40px;
+                        border: 1px solid #bbb8b8;
+
+                        i {
+                            font-size: 10px;
+                        }
+                    }
+
+                    .text {
+                        height: 40px;
+                        width: 60px;
+                        border: 1px solid #bbb8b8;
+                        text-align: center;
+                        margin-top: 1px;
+                    }
+
+                    .plus {
+                        height: 40px;
+                        width: 40px;
+                        border: 1px solid #bbb8b8;
+
+                        i {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+
+            .buy {
+
+                button {
+                    height: 50px;
+                    font-size: 17px;
+                    padding: 0 20px;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+    .detail-comment {
+        .detail {
+            height: auto;
+            width: 100%;
+
+            .title-detail {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .detail-content {
+                height: auto;
+                padding: 20px;
+                font-size: 16px;
+            }
+        }
+
+        .comment {
+            width: 100%;
+            height: auto;
+
+            .title-comment {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .your-comment {
+                padding: 10px 20px;
+                margin-top: 10px;
+
+                .your-comment-title {
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                .star {
+                    display: flex;
+                    padding: 10px 0;
+
+                    :hover {
+                        color: rgb(248, 196, 26);
+                    }
+
+                    i {
+                        color: #b2b1b1;
+                        cursor: pointer;
+                    }
+                }
+
+                .text-comment {
+                    width: 100%;
+                    height: 100px;
+                }
+
+                .btn {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.posts-detail-container {
+    margin-top: 80px;
+    padding: 0 200px;
+
+    .posts-name {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    .posts-image {
+        width: auto;
+        padding: 20px 0;
+
+        .image {
+            height: 350px;
+            width: 50%;
+            margin-left: 280px;
+
+            .img {
+                height: 100%;
+                width: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+    }
+
+    .post-content {
+        font-size: 17px;
+        padding: 20px 0;
+
+        div p img {
+            height: 300px;
+            width: 400px;
+            margin-left: 350px;
+        }
+    }
+}

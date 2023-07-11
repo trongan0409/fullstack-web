@@ -1,0 +1,166 @@
+.login-background {
+    height: 100vh;
+    --bs-gutter-x: 0;
+    display: flex;
+
+    .login-intro {
+        background-color: antiquewhite;
+        width: 65%;
+    }
+
+    .login-form {
+        width: 35%;
+
+        .container {
+            height: 100%;
+            width: 100%;
+
+            .login-content {
+                --bs-gutter-x: 0;
+
+                .title {
+                    margin-top: 0;
+                    font-size: 22px;
+                    width: 100%;
+                    padding-top: 45px;
+                    color: #157347;
+                }
+
+                .signin-text {
+                    font-size: 18px;
+                    padding-top: 50px;
+                    padding-bottom: 20px;
+                    color: #157347;
+                }
+
+                .form {
+                    margin-top: 10px;
+
+                    .form-group {
+                        padding: 5px 15px;
+
+                        .form-control {
+                            padding-top: 8px;
+                        }
+
+                        .custom-pwd-input {
+                            position: relative;
+
+                            i {
+                                position: absolute;
+                                right: 5px;
+                                top: 13px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                    .form-check {
+                        margin-left: 15px;
+
+                        .forgot-pwd {
+                            float: right;
+                            margin-right: 20px;
+                            text-decoration: none;
+                            color: #157347;
+                        }
+                    }
+
+                    .check-message {
+                        color: red;
+                        padding-left: 15px;
+                        padding-top: 5px;
+                    }
+
+                    .signin-btn {
+                        width: 100%;
+                        padding: 20px;
+                        padding-left: 170px;
+
+                        .signin {
+                            width: 150px;
+                            border-radius: 15px;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .signin-other {
+                        margin-top: 30px;
+                        padding: 0 17px;
+
+                        .text-other {
+                            margin-top: 3px;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .signin-google {
+                        display: flex;
+                        margin-top: 30px;
+                        justify-content: center;
+                        align-items: center;
+
+                        .google-icon {
+                            font-size: 20px;
+                            background-color: red;
+                            color: white;
+                            border-radius: 50%;
+                            width: 30px;
+                            height: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        .google-text {
+                            text-transform: capitalize;
+                            font-weight: bold;
+                            margin-top: 15px;
+                            margin-left: 5px;
+                        }
+
+                    }
+
+                    .signin-fb {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .fb-icon {
+                            font-size: 20px;
+                            background-color: blue;
+                            color: white;
+                            border-radius: 50%;
+                            width: 30px;
+                            height: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        .fb-text {
+                            text-transform: capitalize;
+                            font-weight: bold;
+                            margin-top: 15px;
+                            margin-left: 5px;
+                        }
+                    }
+
+                    .create-acc {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-top: 10px;
+
+                        .register {
+                            text-decoration: none;
+                            color: #157347;
+                            margin-top: -7px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
